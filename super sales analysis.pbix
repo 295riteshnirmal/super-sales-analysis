@@ -1,0 +1,59 @@
+select * from superstore;
+
+
+alter table superstore add column id int ;
+update superstore set Quantity = 5 where  country = "United States";
+
+
+
+update superstore
+SET Row_ID = 4999
+WHERE Customer_ID = 'BM_11575';
+
+create table ritesh(
+id  int primary key auto_increment,
+name varchar(40),
+customer_id int,
+product varchar(50) 
+);
+
+
+
+insert into ritesh(id , name, customer_id,product)
+value
+(1,'ritesh',213,'RR'),
+(2,'riya',233,'ri'),
+(3 ,'nitesh', 2345, 'ni'), 
+(4, 'seema', 675, 'ss'),
+(5, 'sona', 2354, 'so');
+
+select * from ritesh;
+select * from superstore;
+update ritesh set name='ekta' where id= 5;
+
+alter table ritesh change  customer_id Customer_ID INT;
+
+insert into ritesh 
+(date_of_payment)
+value(2004-01-22), (2003-03-21), (2005-05-05);
+
+
+alter table ritesh drop column date_of_payment;
+alter table ritesh alter column  id ;
+delete from ritesh where id=1;
+
+
+select upper(name) from ritesh;
+select lower(name) from ritesh;
+select length(name) from ritesh;
+
+select now();
+
+select substring(name , 1,3) , name from ritesh;
+
+
+
+
+select * from superstore
+left join ritesh
+on ritesh.Customer_ID = superstore.Customer_ID;
