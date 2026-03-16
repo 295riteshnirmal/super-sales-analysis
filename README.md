@@ -13,12 +13,10 @@ The objective is to understand **sales performance, customer behavior, and profi
 - Understand the **impact of discounts** on profit  
 - Provide insights for **data-driven decision making**  
 
-## 🛠 Tools & Technologies  
-- **Python** → Pandas, NumPy, Matplotlib, Seaborn  
+## 🛠 Tools & Technologies   
 - **SQL** → Data extraction & queries  
-- **Power BI / Tableau** → Interactive dashboard visualization  
-- **Excel** → Data cleaning & reporting  
-
+- **Power BI** → Interactive dashboard visualization  
+ 
 ## 📊 Key Analysis Performed  
 - Sales & Profit trend by **Year & Month**  
 - Top & Bottom **categories/sub-categories**  
